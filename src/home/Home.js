@@ -1,12 +1,19 @@
 import React,{Component} from "react";
 
-import ArticleList from "./../components/ArticleList";
+import About from "./About";
+import Syllabus from "./Syllabus";
+import HomeHeader from './HomeHeader';
+
+import BigButton from './../components/BigButton';
+import Meme from './../components/Meme';
+
+
+
 import Calendly from './../components/Calendly';
 import CodeAdam from './../components/CodeAdam';
 import SocialList from './../components/SocialList';
 import NavCards from './../components/NavCards';
 
-import HomeHeader from './HomeHeader';
 
 import academia from './../images/academia.jpeg';
 import facebook from './../images/facebook.jpeg';
@@ -19,18 +26,18 @@ import youtube from './../images/youtube.jpeg';
 
 import articles from './articles.json';
 
+import copyPaste from './../images/memes/copy-paste.jpg';
+
 class Home extends Component {
   render() {
     return (
       <div className="Home">
 
         <HomeHeader></HomeHeader>
-        <ArticleList articles={articles}></ArticleList>
-        <Calendly></Calendly>
-        <NavCards title="Teaching Portfolio" links={portfolio}></NavCards>
-        <NavCards title="In the Classroom" links={classroom}></NavCards>
-        <CodeAdam></CodeAdam>
-        <SocialList links={socials}></SocialList>
+        <About></About>
+        <Meme image={copyPaste} title="Copy and Paste" date="2019" colour="light-grey"></Meme>
+        <Syllabus></Syllabus>
+        <BigButton text="Begin Course" url="/course-introduction" icon="fas fa-chevron-right"></BigButton>
 
       </div>
     );
