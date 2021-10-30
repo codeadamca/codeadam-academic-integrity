@@ -5,7 +5,7 @@ import codeBlock from './../images/code-block.png';
 class CodeAdam extends Component {
   render() {
     return (
-      <div className="Calendly">
+      <div className="CodeAdam">
 
         <div className="ca-container-600 w3-center">
           <a href="/">

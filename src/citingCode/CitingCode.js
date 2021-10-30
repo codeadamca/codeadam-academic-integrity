@@ -5,6 +5,9 @@ import {Link} from 'react-router-dom';
 import Header from './../components/Header';
 import BigButton from './../components/BigButton';
 import NextSteps from './../components/NextSteps';
+import Quote from './../components/Quote';
+import Ted from './../components/Ted';
+import YouTube from './../components/YouTube';
 import Meme from './../components/Meme';
 import Twitter from './../components/Twitter';
 
@@ -74,13 +77,20 @@ class CitingCode extends Component {
               varies. 
             </p>
 
+            <p>
+              For future reference, the three examples below are considered coding examples, not 
+              documentation.
+              The differences between documentation and examples is crucial and will be outlined 
+              in the next few chapters.
+            </p>
+
             <hr className="ca-hr" />
 
             <h3>Example 1: HTML and CSS</h3>
 
             <img src={w3schoolsCenterDiv} className="w3-image" />
 
-            <a href="https://www.w3schools.com/howto/howto_css_center-vertical.asp" className="w3-center ca-font-tiny-fixed">
+            <a href="https://www.w3schools.com/howto/howto_css_center-vertical.asp" className="w3-center ca-font-small-fixed">
               https://www.w3schools.com/howto/howto_css_center-vertical.asp
             </a>
 
@@ -97,13 +107,21 @@ class CitingCode extends Component {
               both need to be cited separately.
             </p>
 
+            <p className="w3-text-grey ca-font-small-fixed">
+              Code from W3Schools is free to use and manipulate. 
+              It has been released under 
+              the <a href="https://www.copyright.gov/fair-use/more-info.html">Fair Use License</a>.
+              More information on the terms of use is available on 
+              the <a href="https://www.w3schools.com/about/about_copyright.asp">W3Schools</a> website.
+            </p>
+
             <hr className="ca-hr" />
 
             <h3>Example 2: JavaScript</h3>
 
             <img src={stackoverflowValidateEmail} className="w3-image" />
             
-            <a href="https://stackoverflow.com/questions/46155/how-to-validate-an-email-address-in-javascript" className="w3-center ca-font-tiny-fixed">
+            <a href="https://stackoverflow.com/questions/46155/how-to-validate-an-email-address-in-javascript" className="w3-center ca-font-small-fixed">
             https://stackoverflow.com/questions/46155/how-to-validate-an-email-address-in-javascript
             </a>
 
@@ -115,13 +133,21 @@ class CitingCode extends Component {
 
             <img src={citeValidateEmail} className="w3-image ca-code-image" />
 
+            <p className="w3-text-grey ca-font-small-fixed">
+              Subscriber content from Stack Overflow is free to use and manipulate. 
+              Attribution must be included in your source code and you must share any improvements made to the original code.
+              Subscriber content follows the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike (CC-BY-SA) License</a>.
+              More information on the terms of use is available on 
+              the <a href="https://stackoverflow.com/legal/terms-of-service/public">Stack Overflow</a> website.
+            </p>
+
             <hr className="ca-hr" />
 
             <h3>Example 3: Python and LEGO&trade; EV3</h3>
 
             <img src={pybricksEv3Robot} className="w3-image" />
 
-            <a href="https://pybricks.com/ev3-micropython/examples/robot_educator_line.html" className="w3-center ca-font-tiny-fixed">
+            <a href="https://pybricks.com/ev3-micropython/examples/robot_educator_line.html" className="w3-center ca-font-small-fixed">
               https://pybricks.com/ev3-micropython/examples/robot_educator_line.html
             </a>
             
@@ -131,14 +157,22 @@ class CitingCode extends Component {
             </p>
 
             <img src={citeEv3Robot} className="w3-image ca-code-image" />
+
+            <p className="w3-text-grey ca-font-small-fixed">
+              Code from Pybricks is free to use and manipulate. 
+              It has been released under 
+              the <a href="https://opensource.org/licenses/MIT">MIT License</a>.
+              More information on the terms of use is available on 
+              the <a href="http://pybricks.com/about/#pybricks-is-open-source">Pybricks</a> website.
+            </p>
             
           </div>
         
         </div>
 
-        <NextSteps text="In the next chapter we will review the use of online coding documentation and how to incorporate code from these sources into student work." previous="/course-introduction" next="/code-documentation"></NextSteps>        
+        <NextSteps text="In the next chapter we will review the use of online coding documentation and how to incorporate code from these sources into student work." previous="/course-introduction" next="/documentation"></NextSteps>        
 
-        <BigButton text="Chapter 3: Online Documentation" url="/coding-documentation" icon="fas fa-chevron-right"></BigButton>
+        <BigButton text="Chapter 3: Online Documentation" url="/documentation" icon="fas fa-chevron-right"></BigButton>
 
       </div>
     );

@@ -2,13 +2,16 @@ import React,{Component} from "react";
 
 import {Link} from 'react-router-dom';
 
-import TermList from './TermList';
-
 import Header from './../components/Header';
 import BigButton from './../components/BigButton';
 import NextSteps from './../components/NextSteps';
+import Quote from './../components/Quote';
+import Ted from './../components/Ted';
+import YouTube from './../components/YouTube';
 import Meme from './../components/Meme';
 import Twitter from './../components/Twitter';
+
+import TermList from './TermList';
 
 import copyPaste from './../images/memes/copy-paste.jpg';
 
@@ -48,6 +51,10 @@ class Introduction extends Component {
 
             <hr className="ca-hr" />
 
+            <Quote name="Arianna Huffington" title="Founder, The Huffington Post" text="Learning to code is useful no matter what your career ambitions are."></Quote>
+
+            <hr className="ca-hr" />
+
             <h2 className="w3-text-red w3-center">The Effects of Academic Misconduct</h2>
 
             <p>
@@ -65,16 +72,20 @@ class Introduction extends Component {
               If a student copies code during the crucial first few assignments students will have an even more
               difficult time with more advanced assignments and become dependant on using code that is not their own. 
             </p>
-            
+
+            <hr className="ca-hr" />
+
+            <YouTube id="dU1xS07N-FA"></YouTube>
+
           </div>
         
         </div>
 
         <Twitter id="1327533237065969666" colour="light-grey"></Twitter>
-        
+
         <TermList terms={terms}></TermList>  
 
-        <NextSteps text="In the next chapter we will review how to properly cite code that requires a citation." previous="/" next="/cite-coding"></NextSteps>
+        <NextSteps text="In the next chapter we will review how to properly cite code when it requires a citation." previous="/" next="/citing-code"></NextSteps>
 
         <BigButton text="Chapter 2: Citing Code" url="/citing-code" icon="fas fa-chevron-right"></BigButton>
 

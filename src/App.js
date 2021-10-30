@@ -9,15 +9,12 @@ import ScrollToTop from './components/ScrollToTop';
 import Home from './home/Home';
 import Introduction from './introduction/Introduction';
 import CitingCode from './citingCode/CitingCode';
-
-/*
 import Documentation from './documentation/Documentation';
 import Examples from './examples/Examples';
-import Libraries from './libraries/Libraries';
-import Templates from './templates/Templates';
+import Libraries from './librariesFrameworks/LibrariesFrameworks';
+import Templates from './assignmentTemplates/AssignmentTemplates';
 import CaseStudies from './caseStudies/CaseStudies';
 import Conclusion from './conclusion/Conclusion';
-*/
 
 import './App.css';
 
@@ -37,14 +34,13 @@ function App() {
 
             <Page path="/course-introduction" component={Introduction} title="Course Introduction"></Page>
             <Page path="/citing-code" component={CitingCode} title="Citing Code"></Page>
-            {/*}
-            <Page path="/code-documentation" component={Documentation} title="Copying Code from Documentation"></Page>
-            <Page path="/code-examples" component={Examples} title="Copying Code from Examples"></Page>
-            <Page path="/libraries-frameworks-packages" component={Libraries} title="Libraries, Frameworks, and Packages"></Page>
+            <Page path="/documentation" component={Documentation} title="Copying Code from Documentation"></Page>
+            <Page path="/examples" component={Examples} title="Copying Code from Examples"></Page>
+
+            <Page path="/libraries-frameworks" component={Libraries} title="Libraries and Frameworks"></Page>
             <Page path="/assignment-templates" component={Templates} title="Assignment Templates"></Page>
             <Page path="/case-studies" component={CaseStudies} title="Academic Misconduct Case Studies"></Page>
             <Page path="/conclusion" component={Conclusion} title="Conclusion"></Page>
-            */}
             
           </Switch>
 

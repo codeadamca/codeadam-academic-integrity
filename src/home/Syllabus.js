@@ -29,12 +29,12 @@ class Syllabus extends Component {
               <Button url="/citing-code" text="View this Chapter" icon="fas fa-chevron-right"></Button>
             </li>
             <li>
-              <h3>Copying Code from Online Documentation</h3>
+              <h3>Copying Code from Documentation</h3>
               <p>
                 Instructions on how to identify online documentation and examples of 
                 incorporating code retrieved from documentation into student work.
               </p>
-              <Button url="/code-documentation" text="View this Chapter" icon="fas fa-chevron-right"></Button>
+              <Button url="/documentation" text="View this Chapter" icon="fas fa-chevron-right"></Button>
             </li>
             <li>
               <h3>Copying Code from Examples</h3>
@@ -42,7 +42,7 @@ class Syllabus extends Component {
                 Instructions on how to identify what code is considered an example 
                 and how to incorporating examples into student work.
               </p>
-              <Button url="/code-examples" text="View this Chapter" icon="fas fa-chevron-right"></Button>
+              <Button url="/examples" text="View this Chapter" icon="fas fa-chevron-right"></Button>
             </li>
             <li>
               <h3>Libraries and Frameworks</h3>
@@ -68,7 +68,7 @@ class Syllabus extends Component {
               <Button url="/case-studies" text="View this Chapter" icon="fas fa-chevron-right"></Button>
             </li>
             <li>
-              <h2>Conclusion</h2>
+              <h3>Conclusion</h3>
               <p>
                 Conclusion and instructions for next steps.
               </p>
