@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom';
 
 import Header from './../components/Header';
 import BigButton from './../components/BigButton';
+import NextSteps from './../components/NextSteps';
 import Meme from './../components/Meme';
 import Twitter from './../components/Twitter';
 
@@ -135,27 +136,8 @@ class CitingCode extends Component {
         
         </div>
 
-        <div className="w3-padding-32 w3-light-grey">
+        <NextSteps text="In the next chapter we will review the use of online coding documentation and how to incorporate code from these sources into student work." previous="/course-introduction" next="/code-documentation"></NextSteps>        
 
-          <div className="ca-container-600 w3-center">
-
-            <h2 className="w3-text-dark-grey w3-center">Next Steps</h2>
-
-            <p>
-              In the next chapter we will review the use of online coding documentation and 
-              how to incorporate code from these sources into srudent work.
-            </p>
-
-            <p className="w3-center">
-              <Link to="/course-introduction">Previous Chapter</Link>
-              &nbsp; | &nbsp;
-              <Link to="/citing-code">Next Chapter</Link>
-            </p>
-
-          </div>
-
-        </div>
-        
         <BigButton text="Chapter 3: Online Documentation" url="/coding-documentation" icon="fas fa-chevron-right"></BigButton>
 
       </div>

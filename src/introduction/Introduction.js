@@ -6,6 +6,7 @@ import TermList from './TermList';
 
 import Header from './../components/Header';
 import BigButton from './../components/BigButton';
+import NextSteps from './../components/NextSteps';
 import Meme from './../components/Meme';
 import Twitter from './../components/Twitter';
 
@@ -70,27 +71,10 @@ class Introduction extends Component {
         </div>
 
         <Twitter id="1327533237065969666" colour="light-grey"></Twitter>
+        
         <TermList terms={terms}></TermList>  
 
-        <div className="w3-padding-32 w3-light-grey">
-
-          <div className="ca-container-600 w3-center">
-
-            <h2 className="w3-text-dark-grey w3-center">Next Steps</h2>
-
-            <p>
-              In the next chapter we will review how to properly cite code that requires a citation.
-            </p>
-
-            <p className="w3-center">
-              <Link to="/">Previous Chapter</Link>
-              &nbsp; | &nbsp;
-              <Link to="/citing-code">Next Chapter</Link>
-            </p>
-
-          </div>
-
-        </div>
+        <NextSteps text="In the next chapter we will review how to properly cite code that requires a citation." previous="/" next="/cite-coding"></NextSteps>
 
         <BigButton text="Chapter 2: Citing Code" url="/citing-code" icon="fas fa-chevron-right"></BigButton>
 
