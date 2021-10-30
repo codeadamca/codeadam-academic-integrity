@@ -74,6 +74,8 @@ class Conclusion extends Component {
         
         </div>
 
+        <NextSteps text="Congratulations! This course is complete. You can now return to Blackboard and complete the Academic Integrity Quiz." previous="/case-studies" next="/"></NextSteps>        
+
         <BigButton text="Course Home Page" url="/" icon="fas fa-chevron-right"></BigButton>
 
       </div>
