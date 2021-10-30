@@ -2,8 +2,6 @@ import React,{Component} from "react";
 
 import Button from './../components/Button';
 
-import {Link} from 'react-router-dom';
-
 class Syllabus extends Component {
   render() {
     return (
@@ -12,8 +10,6 @@ class Syllabus extends Component {
         <article className="w3-text-dark-gray ca-container-600">
 
           <h2 className="w3-text-red w3-center">Course Syllabus</h2>
-
-          <hr className="ca-hr" />
 
           <ol>
             <li>
@@ -49,12 +45,12 @@ class Syllabus extends Component {
               <Button url="/code-examples" text="View this Chapter" icon="fas fa-chevron-right"></Button>
             </li>
             <li>
-              <h3>Libraries, Frameworks, and Packages</h3>
+              <h3>Libraries and Frameworks</h3>
               <p>
                 Guidelines on using existing code libraries, frameworks, and packages in
                 student work. 
               </p>
-              <Button url="/libraries-frameworks-packages" text="View this Chapter" icon="fas fa-chevron-right"></Button>
+              <Button url="/libraries-frameworks" text="View this Chapter" icon="fas fa-chevron-right"></Button>
             </li>
 
             <li>

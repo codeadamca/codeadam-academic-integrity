@@ -9,8 +9,6 @@ class About extends Component {
 
           <h2 className="w3-text-red w3-center">About this Course</h2>
 
-          <hr className="ca-hr" />
-
           <h3>
             Writing code for academic purposes is similar to all academic writing in that 
             students are required to follow similar guidelines. 

@@ -7,6 +7,12 @@ class Meme extends Component {
 
         <div className="ca-container-600 w3-center">
 
+          {
+            this.props.caption
+            ? <h3 className="w3-text-grey">{this.props.caption}:</h3>
+            : null
+          }
+
           <img src={this.props.image} className="w3-image" />
 
           <br />

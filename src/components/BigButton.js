@@ -5,7 +5,7 @@ import Button from './../components/Button';
 class BigButton extends Component {
   render() {
     return (
-      <div className="BigButton w3-padding-32 w3-dark-grey">
+      <div className="BigButton w3-padding-48 w3-dark-grey">
 
         <div className="ca-container-600 w3-center">
 
