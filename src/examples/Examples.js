@@ -10,6 +10,8 @@ import Ted from './../components/Ted';
 import YouTube from './../components/YouTube';
 import Meme from './../components/Meme';
 import Twitter from './../components/Twitter';
+import ImageUrl from './../components/ImageUrl';
+import License from './../components/License';
 
 import codeDoesntWork from './../images/memes/code-doesnt-work.jpg';
 
@@ -21,6 +23,10 @@ import phpFunctions from './../images/screenshots/php-functions.png';
 import phpSnippetFunctions from './../images/screenshots/php-snippet-functions.png';
 import phpSnippetMail from './../images/screenshots/php-snippet-mail.png';
 
+import mdnSnippetJavaScriptForms from './../images/screenshots/mdn-snippet-javascript-forms.jpg';
+import mdnJavaScriptForms from './../images/screenshots/mdn-javascript-forms.png';
+import arduinoSnippetKeyboard from './../images/screenshots/arduino-snippet-keyboard.png';
+import arduinoKeyboard from './../images/screenshots/arduino-keyboard.png';
 
 
 class Examples extends Component {
@@ -32,27 +38,32 @@ class Examples extends Component {
 
         <div className="w3-padding-32">
 
-          <div className="ca-container-600 w3-center">
+          <div className="ca-container-600">
 
             <h2 className="w3-text-red w3-center">How to Identify Coding Examples?</h2>
 
             <p>
-              Documentation used while coding is the equivalent of a dictionary used while writing an essay.
-              Documentation provides insight and/or examples of an individual command, not a larger concept. 
-              For example, documentation may provide insight on how to define a variable, how to use an if 
-              statement to make a decision, or how to use a for loop to repeat code. 
+              Examples used while coding is the equivalent of copying content from a paper or book while 
+              writing an essay.
+              Examples provide working code snippets that complete an objective.
+              For example, coding examples may include code that: 
+            </p>
+
+            <ul className="w3-left-align">
+              <li>Use JavaScript to add a slideshow on a webpage</li>
+              <li>Submits form content to an email address using PHP</li>
+              <li>Use Python to add password protection to an application</li>
+              <li>Causes a LEGO&trade; EV3 robot to follow a line</li>
+            </ul>
+
+            <p>
+              Copying code from examples will require permission (either from the author or the website 
+              license), a citation, and within the assignment academic integrity guidelines. 
             </p>
 
             <p>
-              Copying code from documentation does not require any citation and is permitted on almost all
-              assignments. 
-            </p>
-
-            <p>
-              However, sometimes identifying which code snippets are considered documentation and which 
-              snippets are considered examples can difficult.
-              To make things harder, documentation often appears on the same website as examples, and 
-              sometimes even on the same page. 
+              Code examples are easier to identify as they are ready to use and will work directly after
+              pasting them into a project.
             </p>
 
           </div>
@@ -63,118 +74,66 @@ class Examples extends Component {
 
         <div className="w3-padding-32">
 
-          <div className="ca-container-600 w3-center">
+          <div className="ca-container-600">
 
             <h2 className="w3-text-red w3-center">Coding Examples</h2>
 
             <p>
-              Below are a series of documentation examples. 
+              Below are a series of examples snippets. 
               The examples include a variety of different languages and sources. 
             </p>
 
             <hr className="ca-hr" />
 
-            <h3>Example 1: W3Schools and HTML</h3>
+            <h3 className="w3-center">Example 1: MDN and JavaScript</h3>
 
-            <img src={w3schoolsHtmlImages} className="w3-image" />
+            <img src={mdnJavaScriptForms} className="w3-image" />
 
-            <a href="https://www.w3schools.com/html/html_images.aspp" className="w3-center ca-font-tiny-fixed">
-              https://www.w3schools.com/html/html_images.asp
-            </a>
+            <ImageUrl url="https://developer.mozilla.org/en-US/docs/Learn/Forms/Sending_forms_through_JavaScript"></ImageUrl>
 
             <p>
               Below is snippet of code from 
-              the <a href="https://www.w3schools.com/">W3Schools</a> page displayed above. 
+              the <a href="hhttps://developer.mozilla.org">Mozilla Developer Network</a> page displayed above. 
             </p>
 
-            <img src={w3schoolsSnippetHtmlImages} className="w3-image" />
+            <img src={mdnSnippetJavaScriptForms} className="w3-image ca-code-image" />
+
+            <ImageUrl url="https://developer.mozilla.org/en-US/docs/Learn/Forms/Sending_forms_through_JavaScript"></ImageUrl>
 
             <p>
-              This code provides documentation on how to use the <code>img</code> tag. 
-              This snippet could not be copyright because it is very likely that two programmers would 
-              come up with practically the same code.
-              It is not an example of how to code 
-              an <a href="https://www.w3schools.com/howto/howto_js_slideshow.asp">image slideshow</a>, 
-              a <a href="https://www.w3schools.com/howto/howto_css_hero_image.asp">hero image banner</a>, or 
-              an <a href="https://www.w3schools.com/howto/howto_js_image_zoom.asp">image zoom tool</a>. 
-              These would all be considered example code snippets. 
-              They could be subject to copyright and would need to be cited (assumming the assignment the 
+              This code provides an example of how to send form data using 
+              a <code>XMLHttpRequest</code>.
+              This is a working example that just needs to be customized to suit a projects specific needs. 
+              This example would be subject to copyright and would need to be cited (assumming the assignment the 
               student is working on permits the use of examples). 
             </p>
 
-            <hr className="ca-hr" />
-
-            <h3>Example 2: MDN and JavaScript</h3>
-
-            <img src={mdnJavaScriptFunction} className="w3-image" />
-            
-            <a href="https://stackoverflow.com/questions/46155/how-to-validate-an-email-address-in-javascript" className="w3-center ca-font-tiny-fixed">
-              https://stackoverflow.com/questions/46155/how-to-validate-an-email-address-in-javascript
-            </a>
-
-            <p>
-              Below is a JavaScript code snippet from 
-              the <a href="https://developer.mozilla.org/">Mozilla Developer Network</a> page displayed above. 
-              This code provdies documentation on how to define a function:
-            </p>
-
-            <img src={mdnSnippetJavaScriptFunction} className="w3-image" />
-
-            <p>
-              This snippet could not be copyright because it is very likely that two programmers would 
-              come up with practically the same code.
-              It is also unlikely that this code could even be used in a project, as the code is simply an empty 
-              shell of a function definition that sill needs to be given a proper name and additional code to 
-              achieve a purpose. 
-            </p>
+            <License site="mdn"></License>
 
             <hr className="ca-hr" />
 
-            <h3>Example 3: PHP</h3>
+            <h3 className="w3-center">Example 2: Arduino and a Keyboard</h3>
 
-            <img src={phpFunctions} className="w3-image" />
-
-            <a href="https://www.php.net/manual/en/functions.user-defined.php" className="w3-center ca-font-tiny-fixed">
-              https://www.php.net/manual/en/functions.user-defined.php
-            </a>
+            <img src={arduinoKeyboard} className="w3-image" />
             
-            <p>
-              Below is a PHP code snippet from <a href="https://www.php.net/manual/en/functions.user-defined.php">php.net</a>. 
-              This code provides the syntax for user-defined functions:
-            </p>
-
-            <img src={phpSnippetFunctions} className="w3-image" />
-
-            <a href="https://www.php.net/manual/en/functions.user-defined.php" className="w3-center ca-font-tiny-fixed">
-              https://www.php.net/manual/en/functions.user-defined.php
-            </a>
+            <ImageUrl url="https://www.arduino.cc/en/Tutorial/BuiltInExamples/KeyboardAndMouseControl"></ImageUrl>
 
             <p>
-              Like the JavaScript example, this code is still lacking any purpose. 
-              It is an empty shell ready to be copied into a project and customized.
+              Below is an Arduino code snippet from 
+              the <a href="https://www.arduino.cc/">Arduino</a> page displayed above. 
             </p>
+
+            <img src={arduinoSnippetKeyboard} className="w3-image" />
+
+            <ImageUrl url="https://www.arduino.cc/en/Tutorial/BuiltInExamples/KeyboardAndMouseControl"></ImageUrl>
 
             <p>
-              However, on the same website, below the documentation, is a series of user contributed 
-              code snippets:
-            </p>            
-
-            <img src={phpSnippetMail} className="w3-image" />
-
-            <a href="https://www.php.net/manual/en/function.mail.php" className="w3-center ca-font-tiny-fixed">
-            https://www.php.net/manual/en/function.mail.php
-            </a>
-
-            <p>
-              The above code is a function that can be used to send a UTF-8 formatted email using PHP. 
-              Assuming the assignment allows the use of code eamples, this code is subject to copyright
-              and must include a citation. 
+              This code provides a sample of how to incorporate keyboard input using buttons and an
+              Arduino.
+              This snippet and circuit are a working example and ready to be customized for a specific project.
             </p>
 
-            <p className="w3-text-grey ca-font-small-fixed">
-              Code from the <a href="https://www.php.net/">PHP</a> website is free to use under
-              the <a href="https://creativecommons.org/licenses/by/3.0/">Commons Attribution License</a>.
-            </p>
+            <License site="arduino"></License>
             
           </div>
         

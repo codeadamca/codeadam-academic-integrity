@@ -10,7 +10,8 @@ code {
   display: block;
   margin:10px 0;
 }
-p code {
+p code,
+li code {
   display: inline-block;
   margin:0;
   padding: 0 5px;
@@ -127,7 +128,6 @@ pre code.hljs {
   border-right: 1px solid #ccc;
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
-  padding: 5px 0 5px 5px;
 }
 .ca-nobr {
   white-space: nowrap;

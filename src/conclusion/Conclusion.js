@@ -10,6 +10,8 @@ import Ted from './../components/Ted';
 import YouTube from './../components/YouTube';
 import Meme from './../components/Meme';
 import Twitter from './../components/Twitter';
+import ImageUrl from './../components/ImageUrl';
+import License from './../components/License';
 
 import codeDoesntWork from './../images/memes/code-doesnt-work.jpg';
 
@@ -32,7 +34,7 @@ class Conclusion extends Component {
 
         <div className="w3-padding-32">
 
-          <div className="ca-container-600 w3-center">
+          <div className="ca-container-600">
 
             <h2 className="w3-text-red w3-center">Title?</h2>
 
@@ -48,7 +50,7 @@ class Conclusion extends Component {
 
         <div className="w3-padding-32">
 
-          <div className="ca-container-600 w3-center">
+          <div className="ca-container-600">
 
             <h2 className="w3-text-red w3-center">Another Title</h2>
 
@@ -69,6 +71,8 @@ class Conclusion extends Component {
             <p>
               More text...
             </p>
+
+            <Quote text="Learning to write programs stretches your mind, and helps you think better, creates a way of thinking about things that I think is helpful in all domains." name="Bill Gates" title="Co-Founder, Microsoft"></Quote>
             
           </div>
         

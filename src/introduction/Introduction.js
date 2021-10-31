@@ -10,6 +10,8 @@ import Ted from './../components/Ted';
 import YouTube from './../components/YouTube';
 import Meme from './../components/Meme';
 import Twitter from './../components/Twitter';
+import ImageUrl from './../components/ImageUrl';
+import License from './../components/License';
 
 import TermList from './TermList';
 
@@ -24,7 +26,7 @@ class Introduction extends Component {
 
         <div className="w3-padding-32">
 
-          <div className="ca-container-600 w3-center">
+          <div className="ca-container-600">
 
             <h2 className="w3-text-red w3-center">What is Code Plagiarism?</h2>
 

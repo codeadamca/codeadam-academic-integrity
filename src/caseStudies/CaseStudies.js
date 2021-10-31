@@ -10,6 +10,8 @@ import Ted from './../components/Ted';
 import YouTube from './../components/YouTube';
 import Meme from './../components/Meme';
 import Twitter from './../components/Twitter';
+import ImageUrl from './../components/ImageUrl';
+import License from './../components/License';
 
 import codeDoesntWork from './../images/memes/code-doesnt-work.jpg';
 
@@ -32,7 +34,7 @@ class CaseStudies extends Component {
 
         <div className="w3-padding-32">
 
-          <div className="ca-container-600 w3-center">
+          <div className="ca-container-600">
 
             <h2 className="w3-text-red w3-center">Title?</h2>
 
@@ -48,7 +50,7 @@ class CaseStudies extends Component {
 
         <div className="w3-padding-32">
 
-          <div className="ca-container-600 w3-center">
+          <div className="ca-container-600">
 
             <h2 className="w3-text-red w3-center">Another Title</h2>
 

@@ -13,7 +13,7 @@ function TermList(props) {
   return (
     <div className="TermList w3-padding-32">
 
-      <div className="ca-container-600 w3-center">
+      <div className="ca-container-600">
           
         <h2 className="w3-text-red w3-center">Glossary of Terms</h2>
 

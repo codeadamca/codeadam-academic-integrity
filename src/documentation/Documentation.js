@@ -10,6 +10,8 @@ import Ted from './../components/Ted';
 import YouTube from './../components/YouTube';
 import Meme from './../components/Meme';
 import Twitter from './../components/Twitter';
+import ImageUrl from './../components/ImageUrl';
+import License from './../components/License';
 
 import w3schoolsHtmlImages from './../images/screenshots/w3schools-html-images.png';
 import w3schoolsSnippetHtmlImages from './../images/screenshots/w3schools-snippet-html-images.png';
@@ -30,21 +32,27 @@ class Documentation extends Component {
 
         <div className="w3-padding-32">
 
-          <div className="ca-container-600 w3-center">
+          <div className="ca-container-600">
 
-            <h2 className="w3-text-red w3-center">How to Identidy Coding Documentation?</h2>
+            <h2 className="w3-text-red w3-center">How to Identify Coding Documentation?</h2>
 
             <p>
               Documentation used while coding is the equivalent of a dictionary used while writing an essay.
-              Documentation provides insight and/or examples of an individual command, not a larger concept. 
-              For example, documentation may provide insight on how to define a variable, how to use an if 
-              statement to make a decision, or how to use a for loop to repeat code. 
+              It provides insight and/or snippets of individual commands, not a larger concept. 
+              Documentation may provide insight on:
             </p>
+            
+            <ul className="w3-left-align">
+              <li>Defining a CSS selector for HTML tags</li>
+              <li>Integrate a JavaScript <code>if</code> statement to make a decision</li>
+              <li>Integrate a Python <code>for</code> loop to repeat code</li>
+              <li>Set the speed of a LEGO&trade; EV3 motor</li>
+            </ul>
 
             <p>
               Copying from documentation usually involves only copying a few lines of code at a time. 
-              The copied code will not completing an objective, it will likely need to be modified or
-              have coded added before it achieves an objective. 
+              The copied code will not function in it's copied state, it will need to be modified and/or
+              have coded added before it will achieve an objective. 
             </p>
 
             <p>
@@ -56,7 +64,7 @@ class Documentation extends Component {
               However, sometimes identifying which code snippets are considered documentation and which 
               snippets are considered examples can difficult.
               To make things harder, documentation often appears on the same website as examples, and 
-              sometimes even on the same page. 
+              sometimes even on the same page.
             </p>
 
           </div>
@@ -67,24 +75,22 @@ class Documentation extends Component {
 
         <div className="w3-padding-32">
 
-          <div className="ca-container-600 w3-center">
+          <div className="ca-container-600">
 
             <h2 className="w3-text-red w3-center">Coding Documentation</h2>
 
             <p>
-              Below are a series of documentation examples. 
-              The examples include a variety of different languages and sources. 
+              Below are a series of documentation snippets. 
+              The snippets include a variety of different languages and sources. 
             </p>
 
             <hr className="ca-hr" />
 
-            <h3>Example 1: W3Schools and HTML</h3>
+            <h3 className="w3-center">Snippet 1: W3Schools and HTML</h3>
 
             <img src={w3schoolsHtmlImages} className="w3-image" />
 
-            <a href="https://www.w3schools.com/html/html_images.aspp" className="w3-center ca-font-tiny-fixed">
-              https://www.w3schools.com/html/html_images.asp
-            </a>
+            <ImageUrl url="https://www.w3schools.com/html/html_images.asp"></ImageUrl>
 
             <p>
               Below is snippet of code from 
@@ -93,36 +99,38 @@ class Documentation extends Component {
 
             <img src={w3schoolsSnippetHtmlImages} className="w3-image" />
 
+            <ImageUrl url="https://www.w3schools.com/html/html_images.asp"></ImageUrl>
+
             <p>
               This code provides documentation on how to use the <code>img</code> tag. 
-              This snippet could not be copyright because it is very likely that two programmers would 
-              come up with practically the same code.
-              It is not an example of how to code 
+              This snippet could not be subject to copyright because it is very likely that two programmers 
+              would come up with practically the same code.
+              Notice that the snippet has no objective (such as
               an <a href="https://www.w3schools.com/howto/howto_js_slideshow.asp">image slideshow</a>, 
               a <a href="https://www.w3schools.com/howto/howto_css_hero_image.asp">hero image banner</a>, or 
-              an <a href="https://www.w3schools.com/howto/howto_js_image_zoom.asp">image zoom tool</a>. 
+              an <a href="https://www.w3schools.com/howto/howto_js_image_zoom.asp">image zoom tool</a>). 
               These would all be considered example code snippets. 
-              They could be subject to copyright and would need to be cited (assumming the assignment the 
-              student is working on permits the use of examples). 
             </p>
+
+            <License site="w3schools"></License>
 
             <hr className="ca-hr" />
 
-            <h3>Example 2: MDN and JavaScript</h3>
+            <h3 className="w3-center">Snippet 2: MDN and JavaScript</h3>
 
             <img src={mdnJavaScriptFunction} className="w3-image" />
             
-            <a href="https://stackoverflow.com/questions/46155/how-to-validate-an-email-address-in-javascript" className="w3-center ca-font-tiny-fixed">
-              https://stackoverflow.com/questions/46155/how-to-validate-an-email-address-in-javascript
-            </a>
+            <ImageUrl url="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function"></ImageUrl>
 
             <p>
               Below is a JavaScript code snippet from 
               the <a href="https://developer.mozilla.org/">Mozilla Developer Network</a> page displayed above. 
-              This code provdies documentation on how to define a function:
+              This code provides documentation on how to define a function:
             </p>
 
             <img src={mdnSnippetJavaScriptFunction} className="w3-image" />
+
+            <ImageUrl url="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function"></ImageUrl>
 
             <p>
               This snippet could not be copyright because it is very likely that two programmers would 
@@ -132,16 +140,16 @@ class Documentation extends Component {
               achieve a purpose. 
             </p>
 
+            <License site="mdn"></License>
+
             <hr className="ca-hr" />
 
-            <h3>Example 3: PHP</h3>
+            <h3 className="w3-center">Snippet 3: PHP</h3>
 
             <img src={phpFunctions} className="w3-image" />
 
-            <a href="https://www.php.net/manual/en/functions.user-defined.php" className="w3-center ca-font-tiny-fixed">
-              https://www.php.net/manual/en/functions.user-defined.php
-            </a>
-            
+            <ImageUrl url="https://www.php.net/manual/en/functions.user-defined.php"></ImageUrl>
+
             <p>
               Below is a PHP code snippet from <a href="https://www.php.net/manual/en/functions.user-defined.php">php.net</a>. 
               This code provides the syntax for user-defined functions:
@@ -149,12 +157,10 @@ class Documentation extends Component {
 
             <img src={phpSnippetFunctions} className="w3-image" />
 
-            <a href="https://www.php.net/manual/en/functions.user-defined.php" className="w3-center ca-font-tiny-fixed">
-              https://www.php.net/manual/en/functions.user-defined.php
-            </a>
+            <ImageUrl url="https://www.php.net/manual/en/functions.user-defined.php"></ImageUrl>
 
             <p>
-              Like the JavaScript example, this code is still lacking any purpose. 
+              Like the JavaScript snippet, this code is still lacking any purpose. 
               It is an empty shell ready to be copied into a project and customized.
             </p>
 
@@ -165,9 +171,7 @@ class Documentation extends Component {
 
             <img src={phpSnippetMail} className="w3-image" />
 
-            <a href="https://www.php.net/manual/en/function.mail.php" className="w3-center ca-font-tiny-fixed">
-            https://www.php.net/manual/en/function.mail.php
-            </a>
+            <ImageUrl url="https://www.php.net/manual/en/function.mail.php"></ImageUrl>
 
             <p>
               The above code is a function that can be used to send a UTF-8 formatted email using PHP. 
@@ -175,10 +179,7 @@ class Documentation extends Component {
               and must include a citation. 
             </p>
 
-            <p className="w3-text-grey ca-font-small-fixed">
-              Code from the <a href="https://www.php.net/">PHP</a> website is free to use under
-              the <a href="https://creativecommons.org/licenses/by/3.0/">Commons Attribution License</a>.
-            </p>
+            <License site="php"></License>
             
           </div>
         
