@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.c2c3a038.chunk.css",
-    "main.js": "/static/js/main.fdbb4b50.chunk.js",
-    "main.js.map": "/static/js/main.fdbb4b50.chunk.js.map",
+    "main.css": "/static/css/main.49cd6c1b.chunk.css",
+    "main.js": "/static/js/main.3549c2b6.chunk.js",
+    "main.js.map": "/static/js/main.3549c2b6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.62000460.js",
     "runtime-main.js.map": "/static/js/runtime-main.62000460.js.map",
     "static/js/2.b38ff02e.chunk.js": "/static/js/2.b38ff02e.chunk.js",
     "static/js/2.b38ff02e.chunk.js.map": "/static/js/2.b38ff02e.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.c2c3a038.chunk.css.map": "/static/css/main.c2c3a038.chunk.css.map",
+    "static/css/main.49cd6c1b.chunk.css.map": "/static/css/main.49cd6c1b.chunk.css.map",
     "static/js/2.b38ff02e.chunk.js.LICENSE.txt": "/static/js/2.b38ff02e.chunk.js.LICENSE.txt",
+    "static/media/arduino-keyboard.0577a63d.png": "/static/media/arduino-keyboard.0577a63d.png",
+    "static/media/arduino-snippet-keyboard.486743f7.png": "/static/media/arduino-snippet-keyboard.486743f7.png",
     "static/media/cite-center-div.9317023c.png": "/static/media/cite-center-div.9317023c.png",
     "static/media/cite-ev3-robot.18f82992.jpg": "/static/media/cite-ev3-robot.18f82992.jpg",
     "static/media/cite-validate-email.9f09e9f3.jpg": "/static/media/cite-validate-email.9f09e9f3.jpg",
@@ -18,7 +20,9 @@
     "static/media/different-tech.042cd6fa.jpg": "/static/media/different-tech.042cd6fa.jpg",
     "static/media/home-video.6057a6c8.mp4": "/static/media/home-video.6057a6c8.mp4",
     "static/media/linkedin.d9f22562.jpeg": "/static/media/linkedin.d9f22562.jpeg",
+    "static/media/mdn-javascript-forms.666483c5.png": "/static/media/mdn-javascript-forms.666483c5.png",
     "static/media/mdn-javascript-functions.be5fc66f.png": "/static/media/mdn-javascript-functions.be5fc66f.png",
+    "static/media/mdn-snippet-javascript-forms.423cf323.jpg": "/static/media/mdn-snippet-javascript-forms.423cf323.jpg",
     "static/media/mdn-snippet-javascript-functions.82c8f1b1.png": "/static/media/mdn-snippet-javascript-functions.82c8f1b1.png",
     "static/media/php-functions.e10fe09c.png": "/static/media/php-functions.e10fe09c.png",
     "static/media/php-snippet-functions.8b948e98.png": "/static/media/php-snippet-functions.8b948e98.png",
@@ -32,7 +36,7 @@
   "entrypoints": [
     "static/js/runtime-main.62000460.js",
     "static/js/2.b38ff02e.chunk.js",
-    "static/css/main.c2c3a038.chunk.css",
-    "static/js/main.fdbb4b50.chunk.js"
+    "static/css/main.49cd6c1b.chunk.css",
+    "static/js/main.3549c2b6.chunk.js"
   ]
 }
