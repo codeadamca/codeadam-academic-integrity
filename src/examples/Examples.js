@@ -14,14 +14,7 @@ import ImageUrl from './../components/ImageUrl';
 import License from './../components/License';
 
 import codeDoesntWork from './../images/memes/code-doesnt-work.jpg';
-
-import w3schoolsHtmlImages from './../images/screenshots/w3schools-html-images.png';
-import w3schoolsSnippetHtmlImages from './../images/screenshots/w3schools-snippet-html-images.png';
-import mdnJavaScriptFunction from './../images/screenshots/mdn-javascript-functions.png';
-import mdnSnippetJavaScriptFunction from './../images/screenshots/mdn-snippet-javascript-functions.png';
-import phpFunctions from './../images/screenshots/php-functions.png';
-import phpSnippetFunctions from './../images/screenshots/php-snippet-functions.png';
-import phpSnippetMail from './../images/screenshots/php-snippet-mail.png';
+import stole from './../images/memes/stole.png';
 
 import mdnSnippetJavaScriptForms from './../images/screenshots/mdn-snippet-javascript-forms.jpg';
 import mdnJavaScriptForms from './../images/screenshots/mdn-javascript-forms.png';
@@ -43,27 +36,35 @@ class Examples extends Component {
             <h2 className="w3-text-red w3-center">How to Identify Coding Examples?</h2>
 
             <p>
-              Examples used while coding is the equivalent of copying content from a paper or book while 
+              Examples used while coding is the equivalent of copying a paragraph from a paper or book while 
               writing an essay.
-              Examples provide working code snippets that complete an objective.
+              Copying content from another literature source is oten permitted, but must be done properly
+              and with a citation.
+              Example code snippets provide working code that completes a larger objective.
               For example, coding examples may include code that: 
             </p>
 
             <ul className="w3-left-align">
-              <li>Use JavaScript to add a slideshow on a webpage</li>
+              <li>Uses JavaScript to add a slideshow on a webpage</li>
               <li>Submits form content to an email address using PHP</li>
-              <li>Use Python to add password protection to an application</li>
+              <li>Uses Python to add password protection to an application</li>
               <li>Causes a LEGO&trade; EV3 robot to follow a line</li>
             </ul>
 
             <p>
               Copying code from examples will require permission (either from the author or the website 
-              license), a citation, and within the assignment academic integrity guidelines. 
+              license), a citation, and and must fall withint the assignment academic integrity guielines. 
+              Also, the code that you are copying must not be part of the assignment requirements. 
+              You will not receive academic credit for code that you did not write. 
             </p>
 
             <p>
-              Code examples are easier to identify as they are ready to use and will work directly after
-              pasting them into a project.
+              Students must also be able to demonstrate an understanding of the copied code upon request.
+            </p>
+
+            <p>
+              Code examples are easier to identify as they are ready to use and will often work directly 
+              after pasting them into a project.
             </p>
 
           </div>
@@ -136,7 +137,55 @@ class Examples extends Component {
             <License site="arduino"></License>
             
           </div>
-        
+
+        </div>
+
+        <Meme image={stole} title="I Stole It" date="2020" colour="light-grey"></Meme>
+
+        <div className="w3-padding-32">
+
+          <div className="ca-container-600">
+          
+            <h2 className="w3-text-red w3-center">Copying Code from Other Students</h2>
+
+            <p>
+              Copying code from other students follows the same academic guidelines as copying code
+              from an online source. 
+              You will need permission from the author, copying from examples must be within the 
+              assignment academic integrity guidelines, the code must include a citation, and the 
+              code that you are copying must not be part of the assignment requirements.
+            </p>
+
+            <p>
+              In addition, you must receive permission from your professor when copying code from a 
+              fellow student. 
+            </p>
+
+            <hr className="ca-hr" />
+            
+            <h3 className="w3-center">Copying Code Without Permission</h3>
+            
+            <p>
+              Copying code from a fellow student without permission is considered cheating.
+              A single infraction will result in the same academic penalties as copying 
+              code from an online source. 
+              In this case both the student who copied the code and the student
+              who provided the code will be charged with academic misconduct.
+            </p>
+
+            <h4>
+              Do not under any circumstances, provide students with a copy of your code. 
+            </h4>
+
+            <p>
+              When helping fellow students, be careful not to share your code, either by sharing files or
+              sharing your screen. 
+              It is best to help your fellow students by reviewing their code, offering verbal suggestions,
+              and/or providing links to helpful resources. 
+            </p>
+
+          </div>
+
         </div>
 
         <NextSteps text="In the next chapter we will review the use of coding libraries, frameworks, packages, and programmer resources." previous="/documentation" next="/libraries-frameworks"></NextSteps>        

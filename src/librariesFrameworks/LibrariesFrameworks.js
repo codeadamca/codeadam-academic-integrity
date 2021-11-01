@@ -9,11 +9,12 @@ import Quote from './../components/Quote';
 import Ted from './../components/Ted';
 import YouTube from './../components/YouTube';
 import Meme from './../components/Meme';
+import Topics from './../components/Topics';
 import Twitter from './../components/Twitter';
 import ImageUrl from './../components/ImageUrl';
 import License from './../components/License';
 
-import codeDoesntWork from './../images/memes/code-doesnt-work.jpg';
+import libraryScratch from './../images/memes/library-scratch.jpg';
 
 import w3schoolsHtmlImages from './../images/screenshots/w3schools-html-images.png';
 import w3schoolsSnippetHtmlImages from './../images/screenshots/w3schools-snippet-html-images.png';
@@ -22,6 +23,19 @@ import mdnSnippetJavaScriptFunction from './../images/screenshots/mdn-snippet-ja
 import phpFunctions from './../images/screenshots/php-functions.png';
 import phpSnippetFunctions from './../images/screenshots/php-snippet-functions.png';
 import phpSnippetMail from './../images/screenshots/php-snippet-mail.png';
+
+import d3 from './../images/topics/d3.png';
+import firebase from './../images/topics/firebase.png';
+import jquery from './../images/topics/jquery.png';
+import laravel from './../images/topics/laravel.jpg';
+import less from './../images/topics/less.png';
+import pug from './../images/topics/pug.png';
+import react from './../images/topics/react.png';
+import sass from './../images/topics/sass.png';
+import socket from './../images/topics/socket.png';
+import three from './../images/topics/three.jpeg';
+import vue from './../images/topics/vue.jpg';
+import wideImage from './../images/topics/wide-image.jpg';
 
 
 
@@ -36,40 +50,49 @@ class LibrariesFrameworks extends Component {
 
           <div className="ca-container-600">
 
-            <h2 className="w3-text-red w3-center">Title?</h2>
+            <h2 className="w3-text-red w3-center">What are Libraries and Frameworks</h2>
 
             <p>
-              Paragraph...
+              Libraries and frameworks are prewriten code that make common tasks easier to complete.
             </p>
+
+            <p>
+              <strong>Library:</strong> a set of functions that you can call, often organized into classes. 
+              Libraries are used alongside the application flow.
+            </p>
+
+            <Topics topics={libraries}></Topics>
+
+            <p>
+              <strong>Framework: </strong> provides a structure to build an application.  
+              Frameworks often replace the application flow.
+            </p>
+
+            <Topics topics={frameworks}></Topics>
 
           </div>
 
         </div>
 
-        <Meme image={codeDoesntWork} title="Code Deosn't Work" date="2019" colour="light-grey"></Meme>
+        <Meme image={libraryScratch} title="Using Libraries" date="2018" colour="light-grey"></Meme>
 
         <div className="w3-padding-32">
 
           <div className="ca-container-600">
 
-            <h2 className="w3-text-red w3-center">Another Title</h2>
+            <h2 className="w3-text-red w3-center">Can I Use Libraries and Frameworks?</h2>
 
             <p>
-              More text...
+              The use of coding libraries and frameworks are prohibited unless the assignment academic 
+              integrity guidelines (which we will reiew in the next chapter) permit it. 
+              The guidelines must both permit the use of libraries or frameworks and name the specific
+              library or framework. 
+              If the specific library or framework is not mentioned in the assignment academic integrity 
+              guidelines, you may also reach out to your professor and request permission.
             </p>
 
-            <hr className="ca-hr" />
-
-            <h3>Smaller Title</h3>
-
-            <img src={w3schoolsHtmlImages} className="w3-image" />
-
-            <a href="https://www.w3schools.com/html/html_images.aspp" className="w3-center ca-font-tiny-fixed">
-              https://www.w3schools.com/html/html_images.asp
-            </a>
-
             <p>
-              More text...
+              The use of libraries and frameworks do no require any type of citation. 
             </p>
             
           </div>
@@ -86,3 +109,17 @@ class LibrariesFrameworks extends Component {
 }
 
 export default LibrariesFrameworks;
+
+const libraries = [
+  {image:d3, url: 'https://d3js.org/'},
+  {image:jquery, url: 'https://jquery.com/'},
+  {image:socket, url: 'https://socket.io/'},
+  {image:three, url: 'https://threejs.org/'},
+  {image:wideImage, url: 'http://wideimage.sourceforge.net/'}
+];
+const frameworks = [
+  {image:firebase, url: 'https://firebase.google.com/'},
+  {image:react, url: 'https://reactjs.org/'},
+  {image:vue, url: 'https://vuejs.org/'} ,
+  {image:laravel, url: 'https://laravel.com/'}
+];
