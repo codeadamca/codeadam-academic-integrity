@@ -12,26 +12,15 @@ import Meme from './../components/Meme';
 import Topics from './../components/Topics';
 import Twitter from './../components/Twitter';
 import ImageUrl from './../components/ImageUrl';
-import License from './../components/License';
+import License from './../components/License';  
 
 import libraryScratch from './../images/memes/library-scratch.jpg';
-
-import w3schoolsHtmlImages from './../images/screenshots/w3schools-html-images.png';
-import w3schoolsSnippetHtmlImages from './../images/screenshots/w3schools-snippet-html-images.png';
-import mdnJavaScriptFunction from './../images/screenshots/mdn-javascript-functions.png';
-import mdnSnippetJavaScriptFunction from './../images/screenshots/mdn-snippet-javascript-functions.png';
-import phpFunctions from './../images/screenshots/php-functions.png';
-import phpSnippetFunctions from './../images/screenshots/php-snippet-functions.png';
-import phpSnippetMail from './../images/screenshots/php-snippet-mail.png';
 
 import d3 from './../images/topics/d3.png';
 import firebase from './../images/topics/firebase.png';
 import jquery from './../images/topics/jquery.png';
 import laravel from './../images/topics/laravel.jpg';
-import less from './../images/topics/less.png';
-import pug from './../images/topics/pug.png';
 import react from './../images/topics/react.png';
-import sass from './../images/topics/sass.png';
 import socket from './../images/topics/socket.png';
 import three from './../images/topics/three.jpeg';
 import vue from './../images/topics/vue.jpg';
@@ -57,15 +46,15 @@ class LibrariesFrameworks extends Component {
             </p>
 
             <p>
-              <strong>Library:</strong> a set of functions that you can call, often organized into classes. 
-              Libraries are used alongside the application flow.
+              <strong>Library:</strong> a set of functions that you can call, often organized into classes,
+              that are used alongside the application flow.
             </p>
 
             <Topics topics={libraries}></Topics>
 
             <p>
-              <strong>Framework: </strong> provides a structure to build an application.  
-              Frameworks often replace the application flow.
+              <strong>Framework: </strong> provides a structure to build an application within, often
+              the framework replaces the application flow.
             </p>
 
             <Topics topics={frameworks}></Topics>

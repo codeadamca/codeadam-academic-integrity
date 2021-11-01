@@ -53,7 +53,8 @@ class Examples extends Component {
 
             <p>
               Copying code from examples will require permission (either from the author or the website 
-              license), a citation, and and must fall withint the assignment academic integrity guielines. 
+              license), a citation, and and must fall withint the assignment academic integrity guielines
+              (which we will reiew in the next chapter). 
               Also, the code that you are copying must not be part of the assignment requirements. 
               You will not receive academic credit for code that you did not write. 
             </p>
@@ -152,8 +153,9 @@ class Examples extends Component {
               Copying code from other students follows the same academic guidelines as copying code
               from an online source. 
               You will need permission from the author, copying from examples must be within the 
-              assignment academic integrity guidelines, the code must include a citation, and the 
-              code that you are copying must not be part of the assignment requirements.
+              assignment academic integrity guidelines (which we will reiew in the next chapter), 
+              the code must include a citation, and the code that you are copying must not be part 
+              of the assignment requirements.
             </p>
 
             <p>
