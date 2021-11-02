@@ -13,7 +13,7 @@ import Twitter from './../components/Twitter';
 import ImageUrl from './../components/ImageUrl';
 import License from './../components/License';
 
-import codeDoesntWork from './../images/memes/code-doesnt-work.jpg';
+import unfinishedWork from './../images/memes/unfinished-work.png';
 
 import w3schoolsHtmlImages from './../images/screenshots/w3schools-html-images.png';
 import w3schoolsSnippetHtmlImages from './../images/screenshots/w3schools-snippet-html-images.png';
@@ -36,43 +36,58 @@ class Conclusion extends Component {
 
           <div className="ca-container-600">
 
-            <h2 className="w3-text-red w3-center">Title?</h2>
+            <h2 className="w3-text-red w3-center">Course Complete</h2>
+
+            <h3>
+              Congratulations! You have completed the academic integrity course!
+            </h3>
 
             <p>
-              Paragraph...
+              Hopefully you are comfortable with reading and applying the Assignment Academic
+              Integrity Guidelines! 
+              If you are ever unsure, don't hesitate to reach out to your professors. 
+            </p>
+
+            <hr className="ca-hr" />
+
+            <Quote text="Learning to write programs stretches your mind, and helps you think better, creates a way of thinking about things that I think is helpful in all domains." name="Bill Gates" title="Co-Founder, Microsoft"></Quote>
+
+            <hr className="ca-hr" />
+
+            <p>
+              Remember, the best way to learn code is to struggle through the assignments! 
+              The instances where an <code>if</code> statement takes over an hour to get working properly or when 
+              it takes a Stack Overflow question to fix an infinity <code>for</code> loop are the times you will 
+              learn the most. 
+            </p>
+
+            <h3>
+              As clich&eacute; as it sounds, cheating robs you of the best learning moments. 
+            </h3>
+
+            <p>
+              Are you in this program to simply complete it? 
+              Or are you in this program to actually learn how to code?
             </p>
 
           </div>
 
         </div>
 
-        <Meme image={codeDoesntWork} title="Code Doesn't Work" date="2019" colour="light-grey"></Meme>
+        <Meme image={unfinishedWork} title="Unfinished Work" date="2019" url="https://www.monkeyuser.com/2018/unfinished-work/" colour="light-grey"></Meme>
 
         <div className="w3-padding-32">
 
           <div className="ca-container-600">
 
-            <h2 className="w3-text-red w3-center">Another Title</h2>
+            <h2 className="w3-text-red w3-center">Course Evauluation</h2>
 
             <p>
-              More text...
+              To complete this course, return to Blackboard and complete the Assignment Academic Integrity Guidelines
+              quiz located in the Assignments folder. 
+              You must receive a 100% mark on this quiz to receive a SAT (satisfactory) grade. 
+              You have as many attempts as required to complete the quiz.
             </p>
-
-            <hr className="ca-hr" />
-
-            <h3>Smaller Title</h3>
-
-            <img src={w3schoolsHtmlImages} className="w3-image" />
-
-            <a href="https://www.w3schools.com/html/html_images.aspp" className="w3-center ca-font-tiny-fixed">
-              https://www.w3schools.com/html/html_images.asp
-            </a>
-
-            <p>
-              More text...
-            </p>
-
-            <Quote text="Learning to write programs stretches your mind, and helps you think better, creates a way of thinking about things that I think is helpful in all domains." name="Bill Gates" title="Co-Founder, Microsoft"></Quote>
             
           </div>
         
