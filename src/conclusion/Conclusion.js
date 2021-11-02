@@ -46,7 +46,7 @@ class Conclusion extends Component {
 
         </div>
 
-        <Meme image={codeDoesntWork} title="Code Deosn't Work" date="2019" colour="light-grey"></Meme>
+        <Meme image={codeDoesntWork} title="Code Doesn't Work" date="2019" colour="light-grey"></Meme>
 
         <div className="w3-padding-32">
 

@@ -56,7 +56,7 @@ class Syllabus extends Component {
             <li>
               <h3>Assignment Templates</h3>
               <p>
-                Examples and how to read assignment academic integrity guidelines.  
+                Examples and how to read Assignment Academic Integrity Guidelines.  
               </p>
               <Button url="/assignment-templates" text="View this Chapter" icon="fas fa-chevron-right"></Button>
             </li>

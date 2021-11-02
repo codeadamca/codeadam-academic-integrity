@@ -72,7 +72,7 @@ class Examples extends Component {
 
         </div>
 
-        <Meme image={codeDoesntWork} title="Code Deosn't Work" date="2019" colour="light-grey"></Meme>
+        <Meme image={codeDoesntWork} title="Code Doesn't Work" date="2019" colour="light-grey"></Meme>
 
         <div className="w3-padding-32">
 
@@ -153,9 +153,9 @@ class Examples extends Component {
               Copying code from other students follows the same academic guidelines as copying code
               from an online source. 
               You will need permission from the author, copying from examples must be within the 
-              assignment academic integrity guidelines (which we will reiew in the next chapter), 
+              Assignment Academic Integrity Guidelines (which we will reiew in the next chapter), 
               the code must include a citation, and the code that you are copying must not be part 
-              of the assignment requirements.
+              of the assignment objective.
             </p>
 
             <p>
@@ -168,10 +168,10 @@ class Examples extends Component {
             <h3 className="w3-center">Copying Code Without Permission</h3>
             
             <p>
-              Copying code from a fellow student without permission is considered cheating.
+              Copying code from a fellow student without permission is considered plagiarism.
               A single infraction will result in the same academic penalties as copying 
               code from an online source. 
-              In this case both the student who copied the code and the student
+              However, in this case both the student who copied the code and the student
               who provided the code will be charged with academic misconduct.
             </p>
 
