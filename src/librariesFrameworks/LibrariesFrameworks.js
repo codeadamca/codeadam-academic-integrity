@@ -73,7 +73,7 @@ class LibrariesFrameworks extends Component {
 
             <p>
               The use of coding libraries and frameworks are prohibited unless the assignment academic 
-              integrity guidelines (which we will reiew in the next chapter) permit it. 
+              integrity guidelines (which we will review in the next chapter) permit it. 
               The guidelines must both permit the use of libraries or frameworks and name the specific
               library or framework.
               If the specific library or framework is not mentioned in the assignment academic integrity 
@@ -81,14 +81,14 @@ class LibrariesFrameworks extends Component {
             </p>
 
             <p>
-              The use of libraries and frameworks do no require any type of citation. 
+              The use of libraries and frameworks do not require any type of citation. 
             </p>
             
           </div>
         
         </div>
 
-        <NextSteps text="Each assignment will have different rules for what existing code can be incorporated into an assignemnt. In the next chapter we will review how to read Assignment Academic Integrity Guidelines." previous="/examples" next="/assignment-templates"></NextSteps>        
+        <NextSteps text="Each assignment will have different rules for what existing code can be incorporated into an assignment. In the next chapter we will review how to read Assignment Academic Integrity Guidelines." previous="/examples" next="/assignment-templates"></NextSteps>        
 
         <BigButton text="Chapter 6: Assignment Templates" url="/assignment-templates" icon="fas fa-chevron-right"></BigButton>
 

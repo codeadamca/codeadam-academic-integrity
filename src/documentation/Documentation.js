@@ -52,7 +52,7 @@ class Documentation extends Component {
             <p>
               Copying from documentation usually involves only copying a few lines of code at a time. 
               The copied code will not function in it's copied state, it will need to be modified and/or
-              have coded added before it will achieve an objective. 
+              have code added before it will achieve an objective. 
             </p>
 
             <p>
@@ -62,7 +62,7 @@ class Documentation extends Component {
 
             <p>
               However, sometimes identifying which code snippets are considered documentation and which 
-              snippets are considered examples can difficult.
+              snippets are considered examples can be difficult.
               To make things harder, documentation often appears on the same website as examples, and 
               sometimes even on the same page.
             </p>
@@ -93,7 +93,7 @@ class Documentation extends Component {
             <ImageUrl url="https://www.w3schools.com/html/html_images.asp"></ImageUrl>
 
             <p>
-              Below is snippet of code from 
+              Below is a snippet of code from 
               the <a href="https://www.w3schools.com/">W3Schools</a> page displayed above. 
             </p>
 
@@ -133,10 +133,10 @@ class Documentation extends Component {
             <ImageUrl url="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function"></ImageUrl>
 
             <p>
-              This snippet could not be copyright because it is very likely that two programmers would 
+              This snippet could not be copyrighted because it is very likely that two programmers would 
               come up with practically the same code.
               It is also unlikely that this code could even be used in a project, as the code is simply an empty 
-              shell of a function definition that sill needs to be given a proper name and additional code to 
+              shell of a function definition that still needs to be given a proper name and additional code to 
               achieve a purpose. 
             </p>
 
@@ -175,7 +175,7 @@ class Documentation extends Component {
 
             <p>
               The above code is a function that can be used to send a UTF-8 formatted email using PHP. 
-              Assuming the assignment allows the use of code eamples, this code is subject to copyright
+              Assuming the assignment allows the use of code examples, this code is subject to copyright
               and must include a citation. 
             </p>
 

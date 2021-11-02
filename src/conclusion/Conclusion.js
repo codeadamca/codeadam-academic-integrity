@@ -80,7 +80,7 @@ class Conclusion extends Component {
 
           <div className="ca-container-600">
 
-            <h2 className="w3-text-red w3-center">Course Evauluation</h2>
+            <h2 className="w3-text-red w3-center">Course Evaluation</h2>
 
             <p>
               To complete this course, return to Blackboard and complete the Assignment Academic Integrity Guidelines

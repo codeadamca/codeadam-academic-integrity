@@ -49,7 +49,7 @@ class AssignmentTemplates extends Component {
 
           <div className="ca-container-600">
 
-            <h2 className="w3-text-red w3-center">Assignment Academic Integrity Guidlines</h2>
+            <h2 className="w3-text-red w3-center">Assignment Academic Integrity Guidelines</h2>
 
             <p>
               As an author, in academia or industry, copying content from an article or novel without  
@@ -66,8 +66,8 @@ class AssignmentTemplates extends Component {
               While programming in academia, students will learn programming fundamentals by coding everything from 
               scratch, and as the program progresses, students will learn to integrate more and more prewritten code 
               into projects.
-              For that reason every coding assignment will include a set of Assignment Academic Integrity Guidlines.
-              These guildlines will outline what use of prewritten code is permitted for each assignment. 
+              For that reason every coding assignment will include a set of Assignment Academic Integrity Guidelines.
+              These guildelines will outline what use of prewritten code is permitted for each assignment. 
             </p>
 
           </div>

@@ -62,7 +62,7 @@ class Introduction extends Component {
             <p>
               Copying code is considered cheating. 
               A single infraction will likely result in a zero grade on the assignment, a meeting with the program 
-              co-ordinator and/or dean, and a notice will be placed on a student's academic record. 
+              coordinator and/or dean, and a notice will be placed on a student's academic record. 
               However, the effects of copying code go far beyond the academic consequences of cheating.
             </p>
 
@@ -72,7 +72,7 @@ class Introduction extends Component {
               failing, debugging, and finally succeeding. 
               The act of copying code will rob a student of the struggle required to learn code.
               If a student copies code during the crucial first few assignments students will have an even more
-              difficult time with more advanced assignments and become dependant on using code that is not their own. 
+              difficult time with more advanced assignments and become dependent on using code that is not their own. 
             </p>
 
             <hr className="ca-hr" />
@@ -99,5 +99,5 @@ class Introduction extends Component {
 export default Introduction;
 
 const terms = [
-  {name: 'Academic Misconduct Policy', definition: 'A per assigment policy that outlines the use of code retrieved from the internet. The policy specifically addresses the use of code documentation, coding examples, libraries, framworks, and packages.'}
+  {name: 'Academic Integrity Guidelines', definition: 'A per assignment policy that outlines the use of code retrieved from the internet. The policy specifically addresses the use of code documentation, coding examples, libraries, frameworks, and packages.'}
 ];

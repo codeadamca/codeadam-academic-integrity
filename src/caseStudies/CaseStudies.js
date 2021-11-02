@@ -40,7 +40,7 @@ class CaseStudies extends Component {
 
             <p>
               Below are a series of academic case studies loosely based on past events.
-              Any names used are choosen at random.
+              Any names used are chosen at random.
             </p>
 
           </div>
@@ -113,9 +113,9 @@ class CaseStudies extends Component {
             <p>
               Chen and Fatima are doing homework together using Zoom. 
               They are talking about the assignment and how the code should work. 
-              Chen is not making as much progress and so they ask Fatima is she can see her code. 
-              Fatima, knowing that sharing files is not allowed shares her screen with Chen. 
-              Unknown to her Chen takes a screen shot of Fatima's code and later on types it out character 
+              Chen is not making as much progress and so they ask Fatima if she can see her code. 
+              Fatima, knowing that sharing files is not allowed, shares her screen with Chen. 
+              Unknown to her Chen takes a screenshot of Fatima's code and later on types it out character 
               by character.
             </p>
 
@@ -179,10 +179,11 @@ class CaseStudies extends Component {
 
             <p>
               The professor knows that Steve has been struggling with code.
-              This submission does not seem consistant with Steve's other work and the majority of the code has 
+              This submission does not seem consistent with Steve's other work and the majority of the code has 
               been cited.
-              The fact that the code goes beyond the assignment requirements indicate that Steve did not understand 
-              the copied code enough to learn from the concepts and only integrate the necessary components. 
+              he fact that the code goes beyond the assignment requirements leads the professor to believe that
+              Steve did not understand the copied code enough to learn from the concepts and only integrate the 
+              necessary components. 
               The professor asks Steve to explain the code that has been copied and Steve cannot. 
             </p>
             

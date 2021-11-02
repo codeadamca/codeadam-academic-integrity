@@ -16,16 +16,16 @@ class About extends Component {
 
           <p>
             However, identifying what is and what isn't academic misconduct when writing code,
-            assisting fellow students, searching for code samples online, or utalizing 
+            assisting fellow students, searching for code samples online, or utilizing 
             online code samples can be difficult. 
-            This is because academic guidlines guildelines related to to writing code will vary 
-            in each course and occaisioinally in each assignment. 
+            This is because academic guidelines related to writing code will vary 
+            in each course and occaisionally in each assignment. 
             Additionally, the expectations of a programmer during academia are dramatically 
             different than once a student enters the industry.
           </p>
 
           <p>
-             This course will outline those guidlines and require students to complete a 
+             This course will outline those guidelines and require students to complete a 
              series of quizzes to ensure the guidelines are understood.             
           </p>
 

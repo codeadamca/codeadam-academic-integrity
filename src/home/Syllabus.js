@@ -40,7 +40,7 @@ class Syllabus extends Component {
               <h3>Copying Code from Examples</h3>
               <p>
                 Instructions on how to identify what code is considered an example 
-                and how to incorporating examples into student work.
+                and how to incorporate examples into student work.
               </p>
               <Button url="/examples" text="View this Chapter" icon="fas fa-chevron-right"></Button>
             </li>
