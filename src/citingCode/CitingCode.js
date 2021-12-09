@@ -17,6 +17,7 @@ import differentTech from './../images/memes/different-tech.jpg';
 import citeCenterDiv from './../images/code/cite-center-div.png';
 import citeValidateEmail from './../images/code/cite-validate-email.jpg';
 import citeEv3Robot from './../images/code/cite-ev3-robot.jpg';
+import jrDeveloper from './../images/memes/jr-developer.jpeg';
 import w3schoolsCenterDiv from './../images/screenshots/w3schools-center-div.png';
 import stackoverflowValidateEmail from './../images/screenshots/stackoverflow-validate-email.png';
 import pybricksEv3Robot from './../images/screenshots/pybricks-ev3-robot.png';
@@ -149,6 +150,60 @@ class CitingCode extends Component {
             <ImageUrl url="https://pybricks.com/ev3-micropython/examples/robot_educator_line.html"></ImageUrl>
 
             <License site="pybricks"></License>
+
+          </div>
+
+        </div>
+
+
+
+        <Meme image={jrDeveloper} title="Jr. Developers" date="2019" colour="light-grey"></Meme>
+
+        <div className="w3-padding-32">
+
+          <div className="ca-container-600">
+
+            <h2 className="w3-text-red w3-center">Licenses</h2>
+
+            <p>
+              Even if properly cited, you must still make sure the content creator permits copying.
+              Most popular coding resources use one of the following licenses:
+            </p>
+
+            <ul>
+              <li><a href="https://creativecommons.org/licenses/">Creative Commons</a></li>
+              <li><a href="https://www.gnu.org/licenses/gpl-3.0.en.html">General Public License</a></li>
+              <li><a href="https://www.copyright.gov/fair-use/more-info.html">Fair Use</a></li>
+            </ul>
+
+            <p>
+              If you cannot locate a license, look for the website Terms and Conditions.
+              For example review the terms of use from <a href="https://www.w3schools.com/about/about_copyright.asp">W3Schools</a>.
+            </p>
+            <p>
+              Even after reading the Terms and Conditions, it may still be unclear as to whether or not a 
+              developer can use code from W3Schools for their own projects?
+              In this case reach out to the website and ask.
+              After a few email exchanges with W3Schools, I had the following questions answered:
+            </p>
+            
+            <ol>
+              <li>
+                Can programmers use snippets of code from W3Schools for their personal portfolio?
+                <br />
+                <strong>Yes, snippets of code is ok.</strong>
+              </li>
+              <li>
+                Pan programmers use snippets of code from W3Schools for websites for clients?
+                <br />
+                <strong>Yes, snippets of code is ok.</strong>
+              </li>
+              <li>
+                Can students use snippets of code from W3Schools in their projects?
+                <br />
+                Assuming it is permitted by their instructors. Yes, snippets of code is ok.
+              </li>
+            </ol>
             
           </div>
         

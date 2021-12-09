@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.49cd6c1b.chunk.css",
-    "main.js": "/static/js/main.58207be8.chunk.js",
-    "main.js.map": "/static/js/main.58207be8.chunk.js.map",
+    "main.js": "/static/js/main.80478f19.chunk.js",
+    "main.js.map": "/static/js/main.80478f19.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.62000460.js",
     "runtime-main.js.map": "/static/js/runtime-main.62000460.js.map",
     "static/js/2.b38ff02e.chunk.js": "/static/js/2.b38ff02e.chunk.js",
@@ -28,6 +28,7 @@
     "static/media/incomplete-archives.e7853df7.jpg": "/static/media/incomplete-archives.e7853df7.jpg",
     "static/media/javascript.34bf5c40.png": "/static/media/javascript.34bf5c40.png",
     "static/media/jquery.80b414cc.png": "/static/media/jquery.80b414cc.png",
+    "static/media/jr-developer.fec5c1e7.jpeg": "/static/media/jr-developer.fec5c1e7.jpeg",
     "static/media/laravel.687b5b50.jpg": "/static/media/laravel.687b5b50.jpg",
     "static/media/library-scratch.6736202b.jpg": "/static/media/library-scratch.6736202b.jpg",
     "static/media/linkedin.d9f22562.jpeg": "/static/media/linkedin.d9f22562.jpeg",
@@ -55,6 +56,6 @@
     "static/js/runtime-main.62000460.js",
     "static/js/2.b38ff02e.chunk.js",
     "static/css/main.49cd6c1b.chunk.css",
-    "static/js/main.58207be8.chunk.js"
+    "static/js/main.80478f19.chunk.js"
   ]
 }
