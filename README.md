@@ -1,5 +1,5 @@
 # codeadam-academicintegrity
-A small course on coding and academic integrity. The full course can be viewed at:
+A small online learning module on coding and academic integrity. The full course can be viewed at:
 
 [https://academicintegrity.codeadam.ca/](https://academicintegrity.codeadam.ca/)
 
