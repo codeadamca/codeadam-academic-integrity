@@ -10,22 +10,17 @@ code {
   display: block;
   margin:10px 0;
 }
-p code,
-li code {
+p code {
   display: inline-block;
   margin:0;
-  padding: 0 5px;
 }
 
 pre code.hljs {
   padding: 1em;
 }
 
-
-
-
 body, td, th, input, textarea, option, select {
-  font-size: 16px;
+  font-size: 15px;
   font-family: 'Lora', serif;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -80,7 +75,6 @@ pre code.hljs {
 }
 
 /* Nav Styles */
-
 .ca-clear {
   clear: both;
 }
@@ -123,27 +117,27 @@ pre code.hljs {
 }
 
 /* Generic Styles */
-.ca-code-image {
-  border-left: 5px solid #ccc;
-  border-right: 1px solid #ccc;
-  border-top: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
-}
 .ca-nobr {
   white-space: nowrap;
 }
 .ca-adjust-nav {
-  margin-top: 65px;
+  margin-top: 100px;
+}
+.ca-container-600:before,
+.ca-container-800:before {
+  clear: both;
 }
 .ca-container-600 {
   margin-left: auto;
   margin-right: auto;
   max-width: 600px;
+  clear: both;
 }
 .ca-container-800 {
   margin-left: auto;
   margin-right: auto;
   max-width: 800px;
+  clear: both;
 }
 .ca-border-bottom-gray {
   border-bottom: 3px solid #ddd;
@@ -155,6 +149,7 @@ pre code.hljs {
   height: 1px;
   border: none;
   background-color: #ddd;
+  clear: both;
 }
 
 /* Font Styles */
