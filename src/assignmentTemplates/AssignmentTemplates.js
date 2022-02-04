@@ -6,7 +6,6 @@ import IntegrityGuidelines from './IntegrityGuidelines';
 
 import Header from './../components/Header';
 import BigButton from './../components/BigButton';
-import NextSteps from './../components/NextSteps';
 import Quote from './../components/Quote';
 import Ted from './../components/Ted';
 import YouTube from './../components/YouTube';
@@ -14,7 +13,9 @@ import Meme from './../components/Meme';
 import Topics from './../components/Topics';
 import Twitter from './../components/Twitter';
 import ImageUrl from './../components/ImageUrl';
-import License from './../components/License';
+
+import NextSteps from './../academic/NextSteps';
+import License from './../academic/License';
 
 import carCopying from './../images/memes/car-copying.jpg';
 
