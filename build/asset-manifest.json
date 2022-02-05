@@ -1,15 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.49cd6c1b.chunk.css",
-    "main.js": "/static/js/main.80478f19.chunk.js",
-    "main.js.map": "/static/js/main.80478f19.chunk.js.map",
+    "main.css": "/static/css/main.4f2cb60b.chunk.css",
+    "main.js": "/static/js/main.50d82d14.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.62000460.js",
-    "runtime-main.js.map": "/static/js/runtime-main.62000460.js.map",
-    "static/js/2.b38ff02e.chunk.js": "/static/js/2.b38ff02e.chunk.js",
-    "static/js/2.b38ff02e.chunk.js.map": "/static/js/2.b38ff02e.chunk.js.map",
+    "static/js/2.ea008945.chunk.js": "/static/js/2.ea008945.chunk.js",
     "index.html": "/index.html",
-    "static/css/main.49cd6c1b.chunk.css.map": "/static/css/main.49cd6c1b.chunk.css.map",
-    "static/js/2.b38ff02e.chunk.js.LICENSE.txt": "/static/js/2.b38ff02e.chunk.js.LICENSE.txt",
+    "static/js/2.ea008945.chunk.js.LICENSE.txt": "/static/js/2.ea008945.chunk.js.LICENSE.txt",
     "static/media/arduino-keyboard.0577a63d.png": "/static/media/arduino-keyboard.0577a63d.png",
     "static/media/arduino-snippet-keyboard.486743f7.png": "/static/media/arduino-snippet-keyboard.486743f7.png",
     "static/media/arduino.0b75c6a1.png": "/static/media/arduino.0b75c6a1.png",
@@ -31,7 +27,6 @@
     "static/media/jr-developer.fec5c1e7.jpeg": "/static/media/jr-developer.fec5c1e7.jpeg",
     "static/media/laravel.687b5b50.jpg": "/static/media/laravel.687b5b50.jpg",
     "static/media/library-scratch.6736202b.jpg": "/static/media/library-scratch.6736202b.jpg",
-    "static/media/linkedin.d9f22562.jpeg": "/static/media/linkedin.d9f22562.jpeg",
     "static/media/mdn-javascript-forms.666483c5.png": "/static/media/mdn-javascript-forms.666483c5.png",
     "static/media/mdn-javascript-functions.be5fc66f.png": "/static/media/mdn-javascript-functions.be5fc66f.png",
     "static/media/mdn-snippet-javascript-forms.423cf323.jpg": "/static/media/mdn-snippet-javascript-forms.423cf323.jpg",
@@ -54,8 +49,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.62000460.js",
-    "static/js/2.b38ff02e.chunk.js",
-    "static/css/main.49cd6c1b.chunk.css",
-    "static/js/main.80478f19.chunk.js"
+    "static/js/2.ea008945.chunk.js",
+    "static/css/main.4f2cb60b.chunk.css",
+    "static/js/main.50d82d14.chunk.js"
   ]
 }
