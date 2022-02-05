@@ -1,13 +1,7 @@
 import React,{Component} from "react";
 
-import {Link} from 'react-router-dom';
-
 import Header from './../components/Header';
 import BigButton from './../components/BigButton';
-import Quote from './../components/Quote';
-import Ted from './../components/Ted';
-import YouTube from './../components/YouTube';
-import Meme from './../components/Meme';
 import Twitter from './../components/Twitter';
 import ImageUrl from './../components/ImageUrl';
 
@@ -21,8 +15,6 @@ import mdnSnippetJavaScriptFunction from './../images/screenshots/mdn-snippet-ja
 import phpFunctions from './../images/screenshots/php-functions.png';
 import phpSnippetFunctions from './../images/screenshots/php-snippet-functions.png';
 import phpSnippetMail from './../images/screenshots/php-snippet-mail.png';
-
-
 
 class Documentation extends Component {
   render() {
@@ -89,7 +81,7 @@ class Documentation extends Component {
 
             <h3 className="w3-center">Snippet 1: W3Schools and HTML</h3>
 
-            <img src={w3schoolsHtmlImages} className="w3-image" />
+            <img src={w3schoolsHtmlImages} className="w3-image" alt="" />
 
             <ImageUrl url="https://www.w3schools.com/html/html_images.asp"></ImageUrl>
 
@@ -98,7 +90,7 @@ class Documentation extends Component {
               the <a href="https://www.w3schools.com/">W3Schools</a> page displayed above. 
             </p>
 
-            <img src={w3schoolsSnippetHtmlImages} className="w3-image" />
+            <img src={w3schoolsSnippetHtmlImages} className="w3-image" alt="" />
 
             <ImageUrl url="https://www.w3schools.com/html/html_images.asp"></ImageUrl>
 
@@ -119,7 +111,7 @@ class Documentation extends Component {
 
             <h3 className="w3-center">Snippet 2: MDN and JavaScript</h3>
 
-            <img src={mdnJavaScriptFunction} className="w3-image" />
+            <img src={mdnJavaScriptFunction} className="w3-image" alt="" />
             
             <ImageUrl url="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function"></ImageUrl>
 
@@ -129,7 +121,7 @@ class Documentation extends Component {
               This code provides documentation on how to define a function:
             </p>
 
-            <img src={mdnSnippetJavaScriptFunction} className="w3-image" />
+            <img src={mdnSnippetJavaScriptFunction} className="w3-image" alt="" />
 
             <ImageUrl url="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function"></ImageUrl>
 
@@ -147,7 +139,7 @@ class Documentation extends Component {
 
             <h3 className="w3-center">Snippet 3: PHP</h3>
 
-            <img src={phpFunctions} className="w3-image" />
+            <img src={phpFunctions} className="w3-image" alt="" />
 
             <ImageUrl url="https://www.php.net/manual/en/functions.user-defined.php"></ImageUrl>
 
@@ -156,7 +148,7 @@ class Documentation extends Component {
               This code provides the syntax for user-defined functions:
             </p>
 
-            <img src={phpSnippetFunctions} className="w3-image" />
+            <img src={phpSnippetFunctions} className="w3-image" alt="" />
 
             <ImageUrl url="https://www.php.net/manual/en/functions.user-defined.php"></ImageUrl>
 
@@ -170,7 +162,7 @@ class Documentation extends Component {
               code snippets:
             </p>            
 
-            <img src={phpSnippetMail} className="w3-image" />
+            <img src={phpSnippetMail} className="w3-image" alt="" />
 
             <ImageUrl url="https://www.php.net/manual/en/function.mail.php"></ImageUrl>
 

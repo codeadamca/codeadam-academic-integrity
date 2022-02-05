@@ -1,30 +1,13 @@
 import React,{Component} from "react";
 
-import {Link} from 'react-router-dom';
-
 import Header from './../components/Header';
 import BigButton from './../components/BigButton';
 import Quote from './../components/Quote';
-import Ted from './../components/Ted';
-import YouTube from './../components/YouTube';
 import Meme from './../components/Meme';
-import Twitter from './../components/Twitter';
-import ImageUrl from './../components/ImageUrl';
 
 import NextSteps from './../academic/NextSteps';
-import License from './../academic/License';
 
 import unfinishedWork from './../images/memes/unfinished-work.png';
-
-import w3schoolsHtmlImages from './../images/screenshots/w3schools-html-images.png';
-import w3schoolsSnippetHtmlImages from './../images/screenshots/w3schools-snippet-html-images.png';
-import mdnJavaScriptFunction from './../images/screenshots/mdn-javascript-functions.png';
-import mdnSnippetJavaScriptFunction from './../images/screenshots/mdn-snippet-javascript-functions.png';
-import phpFunctions from './../images/screenshots/php-functions.png';
-import phpSnippetFunctions from './../images/screenshots/php-snippet-functions.png';
-import phpSnippetMail from './../images/screenshots/php-snippet-mail.png';
-
-
 
 class Conclusion extends Component {
   render() {

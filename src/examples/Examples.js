@@ -1,14 +1,8 @@
 import React,{Component} from "react";
 
-import {Link} from 'react-router-dom';
-
 import Header from './../components/Header';
 import BigButton from './../components/BigButton';
-import Quote from './../components/Quote';
-import Ted from './../components/Ted';
-import YouTube from './../components/YouTube';
 import Meme from './../components/Meme';
-import Twitter from './../components/Twitter';
 import ImageUrl from './../components/ImageUrl';
 
 import NextSteps from './../academic/NextSteps';
@@ -90,7 +84,7 @@ class Examples extends Component {
 
             <h3 className="w3-center">Example 1: MDN and JavaScript</h3>
 
-            <img src={mdnJavaScriptForms} className="w3-image" />
+            <img src={mdnJavaScriptForms} className="w3-image" alt="" />
 
             <ImageUrl url="https://developer.mozilla.org/en-US/docs/Learn/Forms/Sending_forms_through_JavaScript"></ImageUrl>
 
@@ -99,7 +93,7 @@ class Examples extends Component {
               the <a href="hhttps://developer.mozilla.org">Mozilla Developer Network</a> page displayed above. 
             </p>
 
-            <img src={mdnSnippetJavaScriptForms} className="w3-image ca-code-image" />
+            <img src={mdnSnippetJavaScriptForms} className="w3-image ca-code-image" alt="" />
 
             <ImageUrl url="https://developer.mozilla.org/en-US/docs/Learn/Forms/Sending_forms_through_JavaScript"></ImageUrl>
 
@@ -117,7 +111,7 @@ class Examples extends Component {
 
             <h3 className="w3-center">Example 2: Arduino and a Keyboard</h3>
 
-            <img src={arduinoKeyboard} className="w3-image" />
+            <img src={arduinoKeyboard} className="w3-image" alt="" />
             
             <ImageUrl url="https://www.arduino.cc/en/Tutorial/BuiltInExamples/KeyboardAndMouseControl"></ImageUrl>
 
@@ -126,7 +120,7 @@ class Examples extends Component {
               the <a href="https://www.arduino.cc/">Arduino</a> page displayed above. 
             </p>
 
-            <img src={arduinoSnippetKeyboard} className="w3-image" />
+            <img src={arduinoSnippetKeyboard} className="w3-image" alt="" />
 
             <ImageUrl url="https://www.arduino.cc/en/Tutorial/BuiltInExamples/KeyboardAndMouseControl"></ImageUrl>
 

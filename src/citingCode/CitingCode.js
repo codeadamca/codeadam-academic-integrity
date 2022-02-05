@@ -1,14 +1,8 @@
 import React,{Component} from "react";
 
-import {Link} from 'react-router-dom';
-
 import Header from './../components/Header';
 import BigButton from './../components/BigButton';
-import Quote from './../components/Quote';
-import Ted from './../components/Ted';
-import YouTube from './../components/YouTube';
 import Meme from './../components/Meme';
-import Twitter from './../components/Twitter';
 import ImageUrl from './../components/ImageUrl';
 
 import NextSteps from './../academic/NextSteps';
@@ -92,7 +86,7 @@ class CitingCode extends Component {
 
             <h3 className="w3-center">Example 1: HTML and CSS</h3>
 
-            <img src={w3schoolsCenterDiv} className="w3-image" />
+            <img src={w3schoolsCenterDiv} className="w3-image" alt="" />
 
             <ImageUrl url="https://www.w3schools.com/howto/howto_css_center-vertical.asp"></ImageUrl>
 
@@ -102,7 +96,7 @@ class CitingCode extends Component {
               This code centers a <code>div</code> element horizontally and vertically on a web page:
             </p>
 
-            <img src={citeCenterDiv} className="w3-image ca-code-image" />
+            <img src={citeCenterDiv} className="w3-image ca-code-image" alt="" />
 
             <ImageUrl url="https://www.w3schools.com/howto/howto_css_center-vertical.asp"></ImageUrl>
 
@@ -117,7 +111,7 @@ class CitingCode extends Component {
 
             <h3 className="w3-center">Example 2: JavaScript</h3>
 
-            <img src={stackoverflowValidateEmail} className="w3-image" />
+            <img src={stackoverflowValidateEmail} className="w3-image" alt="" />
             
             <ImageUrl url="https://stackoverflow.com/questions/46155/how-to-validate-an-email-address-in-javascript"></ImageUrl>
 
@@ -127,7 +121,7 @@ class CitingCode extends Component {
               This code defines a function that validates an email address:
             </p>
 
-            <img src={citeValidateEmail} className="w3-image ca-code-image" />
+            <img src={citeValidateEmail} className="w3-image ca-code-image" alt="" />
 
             <ImageUrl url="https://stackoverflow.com/questions/46155/how-to-validate-an-email-address-in-javascript"></ImageUrl>
 
@@ -137,7 +131,7 @@ class CitingCode extends Component {
 
             <h3 className="w3-center">Example 3: Python and LEGO&trade; EV3</h3>
 
-            <img src={pybricksEv3Robot} className="w3-image" />
+            <img src={pybricksEv3Robot} className="w3-image" alt="" />
 
             <ImageUrl url="https://pybricks.com/ev3-micropython/examples/robot_educator_line.html"></ImageUrl>
             
@@ -146,7 +140,7 @@ class CitingCode extends Component {
               This code causes a LEGO&trade; EV3 robot to follow a black line:
             </p>
 
-            <img src={citeEv3Robot} className="w3-image ca-code-image" />
+            <img src={citeEv3Robot} className="w3-image ca-code-image" alt="" />
 
             <ImageUrl url="https://pybricks.com/ev3-micropython/examples/robot_educator_line.html"></ImageUrl>
 
