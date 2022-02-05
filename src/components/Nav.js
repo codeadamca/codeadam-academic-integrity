@@ -1,12 +1,6 @@
 import React,{Component} from "react";
 import {Link} from 'react-router-dom';
 
-import facebook from './../images/facebook.jpeg';
-import instagram from './../images/instagram.jpeg';
-import linkedin from './../images/linkedin.jpeg';
-import twitter from './../images/twitter.jpeg';
-import youtube from './../images/youtube.jpeg';
-
 import NavSocial from './NavSocial';
 
 class Nav extends Component {
@@ -18,21 +12,37 @@ class Nav extends Component {
           <div className="w3-cell-row w3-padding-16">
             <div className="w3-cell w3-cell-middle w3-container">
 
-              <a href="https://codeadam.ca/" className="w3-text-white ca-pt-sans ca-font-none">&#8962;</a>
-              <a href="https://codeadam.ca/teaching.html" className="w3-text-white ca-pt-sans ca-margin-small-horizontal ca-font-none">Teaching</a>
-              <span className="w3-text-white ca-pt-sans">|</span>
-              <a href="https://codeadam.ca/research-publishings.html" className="w3-text-white ca-pt-sans ca-margin-small-horizontal ca-font-none">Research and Publishings</a>
-              <span className="w3-text-white ca-pt-sans">|</span>
-              <a href="https://codeadam.ca/speaking-engagements.html" className="w3-text-white ca-pt-sans ca-margin-small-horizontal ca-font-none">Speaking Engagements</a>
-              <span className="w3-text-white ca-pt-sans">|</span>
-              <a href="https://codeadam.ca/professional-development.html" className="w3-text-white ca-pt-sans ca-margin-small-horizontal ca-font-none">Professional Development</a>
-              <span className="w3-text-white ca-pt-sans">|</span>
-              <a href="https://codeadam.ca/about.html" className="w3-text-white ca-pt-sans ca-margin-small-horizontal ca-font-none">About Me</a>
+              {process.env.REACT_APP_CODEADAMCA
+                ? <>
+                  <Link to="/" className="w3-text-white ca-pt-sans ca-font-none">&#8962;</Link>
+                  <Link to="/teaching" className="w3-text-white ca-pt-sans ca-margin-small-horizontal ca-font-none">Teaching</Link>
+                  <span className="w3-text-white ca-pt-sans">|</span>
+                  <Link to="/research-publishings" className="w3-text-white ca-pt-sans ca-margin-small-horizontal ca-font-none">Research and Publishings</Link>
+                  <span className="w3-text-white ca-pt-sans">|</span>
+                  <Link to="/speaking-engagements" className="w3-text-white ca-pt-sans ca-margin-small-horizontal ca-font-none">Speaking Engagements</Link>
+                  <span className="w3-text-white ca-pt-sans">|</span>
+                  <Link to="/professional-development" className="w3-text-white ca-pt-sans ca-margin-small-horizontal ca-font-none">Professional Development</Link>
+                  <span className="w3-text-white ca-pt-sans">|</span>
+                  <Link to="/about" className="w3-text-white ca-pt-sans ca-margin-small-horizontal ca-font-none">About Me</Link>
+                </>
+                : <>
+                  <Link to="/" className="w3-text-white ca-pt-sans ca-font-none">&#8962;</Link>
+                  <a href="https://codeadam.ca/teaching.html" className="w3-text-white ca-pt-sans ca-margin-small-horizontal ca-font-none">Teaching</a>
+                  <span className="w3-text-white ca-pt-sans">|</span>
+                  <a href="https://codeadam.ca/research-publishings.html" className="w3-text-white ca-pt-sans ca-margin-small-horizontal ca-font-none">Research and Publishings</a>
+                  <span className="w3-text-white ca-pt-sans">|</span>
+                  <a href="https://codeadam.ca/speaking-engagements.html" className="w3-text-white ca-pt-sans ca-margin-small-horizontal ca-font-none">Speaking Engagements</a>
+                  <span className="w3-text-white ca-pt-sans">|</span>
+                  <a href="https://codeadam.ca/professional-development.html" className="w3-text-white ca-pt-sans ca-margin-small-horizontal ca-font-none">Professional Development</a>
+                  <span className="w3-text-white ca-pt-sans">|</span>
+                  <a href="https://codeadam.ca/about.html" className="w3-text-white ca-pt-sans ca-margin-small-horizontal ca-font-none">About Me</a>
+                </>  
+              }
 
             </div>
             <div className="w3-cell w3-cell-middle w3-container w3-right-align w3-hide-small w3-hide-medium">
               
-              <NavSocial links={social}></NavSocial>
+              <NavSocial></NavSocial>
 
             </div>
           </div>
@@ -42,13 +52,5 @@ class Nav extends Component {
     );
   }
 }
-
-const social = [
-  {image: facebook, url: 'https://www.facebook.com/adambenjaminthomas'},
-  {image: instagram, url: 'https://www.instagram.com/codeadamca/'},
-  {image: linkedin, url: 'https://www.linkedin.com/in/adam-thomas-6b563012'},
-  {image: twitter, url: 'https://twitter.com/codeadamca'},
-  {image: youtube, url: 'https://www.youtube.com/channel/UCvn-c8MnpjythwWKDi5qMvA'}
-];
 
 export default Nav;
