@@ -7,7 +7,7 @@ class Twitter extends Component {
     return (
       <div className={"Twitter w3-padding-32 w3-" + (this.props.colour ? this.props.colour : "white")}>
         
-        <div className="ca-container-600 w3-center">
+        <div className="ca-container-550 w3-center">
 
           <TweetEmbed id={this.props.id}></TweetEmbed>
 

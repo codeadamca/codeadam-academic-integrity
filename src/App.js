@@ -3,8 +3,9 @@ import {BrowserRouter, Switch} from 'react-router-dom';
 import {Page} from './extensions/Page';
 
 import Nav from './components/Nav';
-import Footer from './components/Footer';
+import NotFound from './components/NotFound';
 import ScrollToTop from './components/ScrollToTop';
+import Footer from './components/Footer';
 
 import Home from './home/Home';
 import Introduction from './introduction/Introduction';
@@ -16,12 +17,13 @@ import Templates from './assignmentTemplates/AssignmentTemplates';
 import CaseStudies from './caseStudies/CaseStudies';
 import Conclusion from './conclusion/Conclusion';
 
+
 import './App.css';
 
 function App() {
   return (
     <BrowserRouter>
-      <ScrollToTop></ScrollToTop>
+      
       <div className="App">
         
         <Nav></Nav>
@@ -41,6 +43,8 @@ function App() {
             <Page path="/assignment-templates" component={Templates} title="Assignment Templates"></Page>
             <Page path="/case-studies" component={CaseStudies} title="Academic Misconduct Case Studies"></Page>
             <Page path="/conclusion" component={Conclusion} title="Conclusion"></Page>
+            
+            <Page path="*" component={NotFound} title="Page Not Found"></Page>
             
           </Switch>
 
