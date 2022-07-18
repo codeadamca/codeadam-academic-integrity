@@ -4,6 +4,8 @@ A small online learning module on coding and academic integrity. The full course
 
 [https://academicintegrity.codeadam.ca/](https://academicintegrity.codeadam.ca/)
 
+![Academic Integrity](https://github.com/codeadamca/codeadam-academic-integrity/blob/main/screenshot-academic.png?raw=true)
+
 ## Requirements:
 
 * [Visual Studio Code](https://code.visualstudio.com/) or [Brackets](http://brackets.io/) (or any code editor)
