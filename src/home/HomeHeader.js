@@ -15,17 +15,17 @@ class HomeHeader extends Component {
             </video>
             <div className="ca-fullscreen-content w3-cell-row">
                 <div className="w3-cell w3-cell-middle w3-container w3-center">
-                    
-                <h1 className="w3-text-white ca-font-medium ca-pt-sans"><span>Adam Thomas</span></h1>
-                <h2 className="w3-text-red ca-font-large ca-pt-sans"><span>I Teach Code!</span></h2>
+
+                <h1 className="w3-text-white ca-font-medium ca-pt-sans"><span>Academic Integrity</span></h1>
+                <h2 className="w3-text-red ca-font-large ca-pt-sans"><span>Coding and Plagiarism</span></h2>
                 <p className="w3-text-white ca-font-small ca-pt-sans w3-center">
                   <span>
-                    Self-taught full-stack developer.
+                    An online course focussing on
                   </span>
                 </p>
                 <p className="w3-text-white ca-font-small ca-pt-sans w3-center">
                   <span>
-                    Learning code and teaching code at Humber College, Toronto, Canada.
+                    academic integrity in computer science.
                   </span>
                 </p>
                 </div>
