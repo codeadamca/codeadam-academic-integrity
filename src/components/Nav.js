@@ -3,18 +3,22 @@ import {Link} from 'react-router-dom';
 
 import NavSocial from './NavSocial';
 
+import codeBlockWhite from './../images/code-block-white.png';
+
 class Nav extends Component {
   render() {
     return (
       <div className="Nav">
 
-        <nav className="ca-nav w3-orange ca-border-bottom-gray w3-hide-small">
+        <nav className="ca-nav w3-black ca-border-bottom-gray w3-hide-small">
           <div className="w3-cell-row w3-padding-16">
             <div className="w3-cell w3-cell-middle w3-container">
 
               {process.env.REACT_APP_CODEADAMCA
                 ? <>
-                  <Link to="/" className="w3-text-white ca-pt-sans ca-font-none">&#8962;</Link>
+                  <Link to="/" className="w3-text-white ca-pt-sans ca-margin-small-horizontal ca-font-none">
+                    <img src={codeBlockWhite} className="ca-image-icon" alt="Code Adam Logo" width="" />
+                  </Link>
                   <Link to="/teaching" className="w3-text-white ca-pt-sans ca-margin-small-horizontal ca-font-none">Teaching</Link>
                   <span className="w3-text-white ca-pt-sans">|</span>
                   <Link to="/research-publishings" className="w3-text-white ca-pt-sans ca-margin-small-horizontal ca-font-none">Research and Publishings</Link>
@@ -26,7 +30,9 @@ class Nav extends Component {
                   <Link to="/about" className="w3-text-white ca-pt-sans ca-margin-small-horizontal ca-font-none">About Me</Link>
                 </>
                 : <>
-                  <Link to="/" className="w3-text-white ca-pt-sans ca-font-none">&#8962;</Link>
+                  <Link to="https://codeadam.ca/" className="w3-text-white ca-pt-sans ca-margin-small-horizontal ca-font-none">
+                    <img src={codeBlockWhite} className="ca-image-icon" alt="Code Adam Logo" width="" />
+                  </Link>
                   <a href="https://codeadam.ca/teaching.html" className="w3-text-white ca-pt-sans ca-margin-small-horizontal ca-font-none">Teaching</a>
                   <span className="w3-text-white ca-pt-sans">|</span>
                   <a href="https://codeadam.ca/research-publishings.html" className="w3-text-white ca-pt-sans ca-margin-small-horizontal ca-font-none">Research and Publishings</a>
