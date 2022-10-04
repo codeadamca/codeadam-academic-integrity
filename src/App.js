@@ -4,7 +4,6 @@ import {Page} from './extensions/Page';
 
 import Nav from './components/Nav';
 import NotFound from './components/NotFound';
-import ScrollToTop from './components/ScrollToTop';
 import Footer from './components/Footer';
 
 import Home from './home/Home';
