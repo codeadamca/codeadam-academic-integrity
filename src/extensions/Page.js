@@ -9,7 +9,6 @@ const Page = ({ title, ...rest }) => {
   useEffect(() => {
     document.title = (title ? title + " | " : "") + process.env.REACT_APP_TITLE;
     ReactGA.send({ hitType: "pageview", page: window.location.pathname + window.location.search });
-    window.scrollTo(0, 0);
   });
   return <Route {...rest} />;
 };
