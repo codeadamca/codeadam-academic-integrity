@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ab9fe960.css",
-    "main.js": "/static/js/main.ee28717d.js",
+    "main.js": "/static/js/main.e7da3453.js",
     "static/media/w3schools-html-images.png": "/static/media/w3schools-html-images.354014122762b3e3cf73.png",
     "static/media/stackoverflow-validate-email.png": "/static/media/stackoverflow-validate-email.fbef2bccb8fb9745ef7a.png",
     "static/media/mdn-javascript-forms.png": "/static/media/mdn-javascript-forms.666483c5bbd14a6ce8ad.png",
@@ -47,6 +47,6 @@
   },
   "entrypoints": [
     "static/css/main.ab9fe960.css",
-    "static/js/main.ee28717d.js"
+    "static/js/main.e7da3453.js"
   ]
 }
