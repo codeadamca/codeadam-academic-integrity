@@ -2,10 +2,10 @@
 
 A small online learning module on coding and academic integrity. 
 
+![Academic Integrity](_readme/screenshot-academic.png)
+
 > The full course can be viewed at:  
 > [https://academicintegrity.codeadam.ca/](https://academicintegrity.codeadam.ca/)
-
-![Academic Integrity](_readme/screenshot-academic.png)
 
 ## Requirements:
 
